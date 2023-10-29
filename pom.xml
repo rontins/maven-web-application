@@ -23,7 +23,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://3.84.32.76:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
-                <sonar.password>admin</sonar.password>
+                <sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>United Core System Releases Nexus Repository</name>
-	      <url>http://54.197.39.245:8081/repository/maven-release/</url>
+	      <url>http://54.197.39.245:8081/repository/Zelle-Releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>United Core System Snapshot Nexus Repository </name>
-	      <url>http://54.197.39.245:8081/repository/maven-snapshot/</url>
+	      <url>http://54.197.39.245:8081/repository/Zelle-Snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
